@@ -7,7 +7,7 @@ function scriptTagWithInlineScript($scriptFile)
 
 function getSiteTitle()
 {
-    if ($_SERVER['HTTP_HOST'] === "soltice.helaaspindakaas.xyz") {
+    if ($_SERVER['HTTP_HOST'] === "solstice.helaaspindakaas.xyz") {
         return "Solstice Festival 2024 Amsterdam";
     }
     return "Solstice Festival 2024 Amsterdam DEV";
