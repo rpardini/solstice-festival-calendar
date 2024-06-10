@@ -67,7 +67,7 @@ function updateLineUp (currTS) {
 
         allStagesHtml = allStagesHtml + stageHtml;
         stageCounter++;
-        //if (stageCounter > 4) break; // @TODO: wtf.
+        if (stageCounter > 4) break; // @TODO: wtf.
     }
 
     let timeStyles = "";
@@ -79,7 +79,7 @@ function updateLineUp (currTS) {
     document.getElementById('lineupstyle').innerText = "" +
         "    .schedule {" +
         "        grid-template-rows: " + timeStyles + ";" +
-        "        grid-template-columns: [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start]  1fr [track-4-end track-5-start] 1fr [track-5-end];" +
+        "        grid-template-columns: [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end];" +
         "    }" +
         "";
     lineUpTable.innerHTML = allStagesHtml;
