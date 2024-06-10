@@ -15,7 +15,7 @@ let config = {
     COLORFUL: false,
     COLOR_UPDATE_SPEED: 1,
     PAUSED: false,
-    BACK_COLOR: {r: 0x22, g: 0x16, b: 0x35}, //     background-color: #221635;
+    BACK_COLOR: {r: 0x00, g: 0x00, b: 0x00}, //     background-color: #000000;
     TRANSPARENT: false,
     BLOOM: false,
     BLOOM_ITERATIONS: 8,
