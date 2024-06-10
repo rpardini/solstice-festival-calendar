@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Europe/Amsterdam');
 
-define('CACHE_KEY', "clashfinder-expiring3");
-define('CACHE_KEY_FALLBACK', "clashfinder-fallback3");
+define('CACHE_KEY', "clashfinder-expiring4");
+define('CACHE_KEY_FALLBACK', "clashfinder-fallback4");
 
 function getClashFinderData()
 {
